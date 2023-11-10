@@ -1,0 +1,60 @@
+.image {
+    height: 59.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.hr {
+    width: 80%;
+    height: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+}
+
+.name {
+    height: 39.5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    justify-content: center;
+}
+
+#dt {
+    color: #777;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+#dt::before {
+    content: attr(data-text);
+    position: absolute;
+    color: black;
+    width: 320px;
+    overflow: hidden;
+    white-space: nowarp;
+    border-right: black 4px solid;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    70%,
+    90% {
+        width: 325px;
+    }
+}
