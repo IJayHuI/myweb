@@ -29,36 +29,36 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: large;
+    font-size: 23px;
 }
 
-#dt {
-    color: #777;
-    font-size: 50px;
-    margin-bottom: 20px;
+.text {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    color: rgba(0, 0, 0, 0.8);
 }
 
-#dt::before {
-    content: attr(data-text);
+.text::after {
+    content: '';
     position: absolute;
-    color: black;
-    width: 320px;
-    overflow: hidden;
-    white-space: nowarp;
-    border-right: black 4px solid;
-    animation: animate 5s linear infinite;
+    right: -10px;
+    top: 5px;
+    height: 50px;
+    width: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+    animation: san 1s steps(1) infinite;
 }
 
-@keyframes animate {
+@keyframes san {
 
     0%,
-    10%,
     100% {
-        width: 0;
+        background-color: rgba(0, 0, 0, 0.8);
     }
 
-    70%,
-    90% {
-        width: 325px;
+    50% {
+        background-color: transparent;
     }
 }
