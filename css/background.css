@@ -6,13 +6,13 @@
 
 body {
     min-height: 100vh;
-    background-color: #e493d0;
+    background-color: #e287cc;
     background-image:
         radial-gradient(closest-side, rgb(190, 98, 255), rgba(235, 105, 78, 0)),
         radial-gradient(closest-side, rgb(139, 187, 255), rgba(243, 11, 164, 0)),
-        radial-gradient(closest-side, rgba(0, 210, 255, 1), rgba(254, 234, 131, 0)),
-        radial-gradient(closest-side, rgba(0, 255, 174, 1), rgba(170, 142, 245, 0)),
-        radial-gradient(closest-side, rgba(0, 255, 0, 1), rgba(248, 192, 147, 0));
+        radial-gradient(closest-side, rgb(0, 255, 217), rgba(254, 234, 131, 0)),
+        radial-gradient(closest-side, rgb(0, 255, 132), rgba(170, 142, 245, 0)),
+        radial-gradient(closest-side, rgb(208, 255, 53), rgba(248, 192, 147, 0));
     background-size:
         130vmax 130vmax,
         80vmax 80vmax,
