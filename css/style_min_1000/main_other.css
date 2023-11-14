@@ -3,6 +3,10 @@
     overflow: scroll;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .max_title {
     font-size: 2.7rem;
     font-weight: bold;
