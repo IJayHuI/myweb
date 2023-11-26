@@ -20,11 +20,6 @@
         "path": "/Connect"
     },
     {
-        "icon": "./icons/navigates/feedback.svg",
-        "name": "反馈",
-        "path": "/Feedback"
-    },
-    {
         "icon": "./icons/navigates/logs.svg",
         "name": "日志",
         "path": "/Log"
