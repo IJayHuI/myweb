@@ -42,6 +42,18 @@
       "mdnWebDocs": {
         "name": "MDN Web Docs",
         "address": "https://developer.mozilla.org/zh-CN/"
+      },
+      "github": {
+        "name": "Github",
+        "address": "https://www.github.com"
+      },
+      "bilibili": {
+        "name": "哔哩哔哩",
+        "address": "https://www.bilibili.com"
+      },
+      "youtube": {
+        "name": "YouTube 🔴",
+        "address": "https://www.youtube.com"
       }
     }
   },
